@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Muli', sans-serif; */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: 'Muli', sans-serif;
+
+
+}
+
+body {
+   background: #95B3BF;
+   overflow-x: hidden;
+
+}
+
+header {
+   position: relative;
+   height: 100vh;
+   background-image: url(sponsoring/Dominika-Baldys-Main.jpg);
+   background-size: cover;
+   background-position: center;
+   color: white;
+   text-align: center;
+   font-family: 'Muli', sans-serif;
+   font-weight: bold;
+
+
+}
+
+span {
+   text-transform: uppercase;
+}
+
+.team h1 {
+   position: absolute;
+   padding: 15px 6px;
+   font-size: 34px;
+   left: 0;
+   right: 0;
+}
+
+
+.wraper section {
+   padding-left: 35px;
+   padding-right: 30px;
+}
+
+.team h2 {
+   position: absolute;
+   bottom: 0%;
+   padding: 15px 6px;
+   font-size: 20px;
+   left: 0;
+   right: 0;
+}
+
+.black {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+nav.menu {
+
+   border-top: 3px solid rgb(20, 75, 97);
+   border-bottom: 3px solid rgb(20, 75, 97);
+
+}
+
+nav.menu a {
+   float: left;
+   display: block;
+   width: 33%;
+   padding: 12px 8px;
+   font-family: 'Muli', sans-serif;
+   font-size: 17px;
+   line-height: 20px;
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+   transition: .3s;
+}
+
+nav.menu a:hover {
+
+   color: rgb(20, 75, 97);
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.clearfix::after {
+   display: block;
+   content: "";
+   clear: both;
+}
+
+.wraper {
+   display: flex;
+   flex-direction: column;
+   color: rgb(20, 75, 97);
+   margin: 10px 25px;
+   max-width: 1280px;
+
+
+}
+
+section {
+   padding: 25px 0;
+}
+
+
+.wraper section h1 {
+   padding: 18px 0;
+   font-size: 25px;
+   font-family: 'Muli', sans-serif;
+   font-weight: bold;
+}
+
+.wraper section h2 {
+   text-align: center;
+   padding-bottom: 30px;
+   font-size: 20px;
+   font-family: 'Muli', sans-serif;
+
+}
+
+p {
+   font-size: 18px;
+   font-family: 'Muli', sans-serif;
+}
+
+section.start div:nth-child(2) {
+   margin-bottom: 30px;
+
+}
+
+div.bgc {
+   width: 80%;
+   margin: 0 auto;
+   min-height: 10vh;
+   background-image: url(sponsoring/13606527_1229299050433987_5623301554119006061_n.jpg);
+   background-position: center;
+   background-size: contain;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+
+img {
+   width: 100%;
+   margin-top: 20px;
+
+}
+
+.marta img {
+   position: relative
+}
+
+
+.prizes nav {
+   margin-left: 20px;
+   font-size: 18px;
+   line-height: 150%;
+}
+
+section h2.name {
+   padding-bottom: 12px;
+   font-size: 15px;
+   text-align: center;
+}
+
+.beachvolleyball p {
+   padding-bottom: 25px;
+}
+
+.beachvolleyball div+div {
+   display: flex;
+   justify-content: space-between;
+
+
+}
+
+.logo {
+   padding: 0 5px;
+   width: 33%;
+   align-content: space-between;
+   flex-grow: 1;
+}
+
+section.reality {
+   flex-grow: 1;
+}
+
+section.reality ul {
+
+
+   padding-left: 14px;
+   padding-top: 15px;
+   font-size: 18px;
+
+}
+
+section.reality h1 {
+   padding-bottom: 25px;
+}
+
+section.reality div p~p {
+   font-size: 12px;
+   margin-top: 15px;
+}
+
+
+.packages ul {
+   margin-left: 20px;
+   font-size: 18px;
+   line-height: 150%;
+   padding: 15px 0 8px;
+}
+
+
+
+.gallery {
+   position: relative;
+   height: 25vh;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+   margin-top: 25px;
+}
+
+.gallery img {
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   min-width: 100%;
+   min-height: 100%;
+   animation: gallery 16s linear infinite both;
+
+
+}
+
+img.two {
+   animation-delay: 4s;
+}
+
+img.three {
+   animation-delay: 8s;
+}
+
+img.four {
+   animation-delay: 12s;
+}
+
+@keyframes gallery {
+   0% {
+      opacity: 0;
+   }
+
+   5% {
+      opacity: 1;
+   }
+
+   25% {
+      opacity: 1;
+   }
+
+   30% {
+      opacity: 0;
+   }
+
+
+   100% {
+      opacity: 0;
+   }
+
+}
+
+
+.mail {
+   padding-bottom: 10px;
+}
+
+.contacts div p {
+   line-height: 150%;
+   font-size: 15px;
+}
+
+.contacts div i {
+   padding-right: 20px;
+}
+
+footer {
+   width: 100%;
+   height: 10vh;
+   text-align: center;
+
+}
+
+footer p {
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   line-height: 10vh;
+   color: rgb(20, 75, 97);
+}
+
+.arrow {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   width: 40px;
+   height: 40px;
+   font-size: 30px;
+   transition: .8s;
+   right: -20%;
+   transform: rotate(360deg);
+}
+
+.arrow.active {
+   right: 0;
+   transform: rotate(0deg);
+}
+
+
+
+.arrow i {
+   border: 4px solid rgb(20, 75, 97);
+   border-radius: 50%;
+   padding: 3px;
+}
+
+.arrow:hover {
+   cursor: pointer;
+   color: #95B3BF;
+}
+
+.arrow:hover i {
+   border-color: #95B3BF;
+   background-color: rgb(20, 75, 97);
+}
+
+.underline {
+   border-bottom: rgb(20, 75, 97) 8px solid;
+}
+
+
+p.information {
+   width: 100%;
+   font-size: 18px;
+   text-align: center;
+
+}
+
+small {
+   position: absolute;
+   z-index: 40;
+   bottom: 0;
+   margin-bottom: -15px;
+}
+
+@media(orientation: landscape) {
+
+   header h1 {
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   header h2 {
+      position: absolute;
+      left: 0;
+      right: 0;
+   }
+
+
+   .wraper {
+      flex-direction: row;
+      flex-wrap: wrap;
+   }
+
+   div.bgc {
+
+      min-height: 30vh;
+   }
+
+
+   .prizes {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-basis: 100%;
+      justify-content: space-between;
+   }
+
+   .prizes nav {
+      flex-basis: 45%;
+   }
+
+   .marta,
+   .dominika {
+      flex-basis: 45%;
+      width: 100%;
+   }
+
+   nav.menu a {
+      width: 16%;
+   }
+
+   .marta {
+
+      padding-right: 20px;
+   }
+
+   .dominika {
+      order: 2;
+   }
+
+   .prizes>h2 {
+      flex-basis: 100%;
+   }
+
+
+
+   div.logos {
+      padding-left: 60px;
+      padding-right: 60px;
+   }
+
+   div.map {
+      width: 100%;
+   }
+
+   div.map img {
+      display: block;
+      max-width: 80%;
+      margin: 0 auto;
+   }
+
+   .gallery {
+      height: 70vh;
+      margin-top: 25px;
+   }
+
+   div.mail,
+   div.phone {
+      float: left;
+   }
+
+   div.mail {
+      width: 60%;
+      padding-left: 15px;
+   }
+
+   div.phone {
+      width: 40%;
+      text-align: end;
+      padding-right: 25px;
+   }
+
+}
+
+@media(orientation:portrait) and (min-width: 400px) {
+
+
+   .wraper section h1 {
+      font-size: 34px;
+   }
+
+   div.bgc {
+
+      min-height: 20vh;
+   }
+}
+
+@media(orientation:landscape) and (min-width: 730px) {
+   header h1 {
+      top: 48%;
+   }
+
+   .wraper section {
+      padding-left: 35px;
+      padding-right: 30px;
+   }
+
+   .wraper section h1 {
+      font-size: 38px;
+   }
+
+   .wraper section p {
+      font-size: 18px;
+   }
+}
+
+@media(orientation:portrait) and (min-width: 768px) {
+   header {
+      height: 90vh;
+   }
+
+   header .team h1 {
+      font-size: 60px;
+   }
+
+   header .team h2 {
+      font-size: 35px;
+   }
+
+   nav.menu a {
+      font-size: 20px;
+   }
+
+   .wraper section h1 {
+      font-size: 35px;
+   }
+
+   .wraper section h2 {
+      font-size: 25px;
+   }
+
+   p {
+      font-size: 20px;
+   }
+
+   .prizes h2 {
+      flex-basis: 100%;
+   }
+
+   section h2.name {
+      font-size: 20px;
+   }
+
+   .prizes nav {
+      font-size: 20px;
+   }
+
+   .prizes {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-basis: 100%;
+      justify-content: space-between;
+   }
+
+   .prizes nav {
+      flex-basis: 45%;
+   }
+
+   .marta,
+   .dominika {
+      flex-basis: 45%;
+      width: 100%;
+   }
+
+
+
+   .marta {
+
+      padding-right: 20px;
+   }
+
+   .dominika {
+      order: 2;
+   }
+
+   section.reality ul {
+      font-size: 20px;
+   }
+
+   .packages ul {
+      font-size: 20px;
+   }
+
+   div.mail,
+   div.phone {
+      float: left;
+   }
+
+   div.mail {
+      width: 60%;
+      padding-left: 15px;
+   }
+
+   div.phone {
+      width: 40%;
+      text-align: end;
+      padding-right: 25px;
+   }
+
+   footer {
+      height: 5vh;
+   }
+
+   footer p {
+      line-height: 5vh;
+   }
+}
+
+@media(orientation:landscape) and (min-width:1024px) {
+   header {
+      overflow: hidden;
+   }
+
+   header .team h1 {
+      font-size: 80px;
+   }
+
+   header .team h1 {
+      font-size: 60px;
+   }
+
+   header .team h2 {
+      font-size: 35px;
+   }
+
+   nav.menu {
+      border-width: 5px;
+   }
+
+   nav.menu a {
+      font-size: 25px;
+      line-height: 25px;
+   }
+
+   .wraper section {
+      padding-bottom: 60px;
+      padding-top: 50px;
+   }
+
+   .wraper section h1 {
+      font-size: 40px;
+      padding-bottom: 30px;
+   }
+
+   .wraper section h2 {
+      font-size: 25px;
+   }
+
+   .wraper section p {
+      font-size: 25px;
+   }
+
+
+   section h2.name {
+      font-size: 20px;
+   }
+
+   .prizes nav {
+      margin: 0 auto;
+      font-size: 24px;
+   }
+
+   section.reality ul {
+      font-size: 25px;
+   }
+
+   section.reality div p~p {
+      font-size: 18px;
+   }
+
+   .wraper section p.information {
+      position: relative;
+      top: 15%;
+      left: 25%;
+      font-size: 18px;
+
+   }
+
+   .packages h3 {
+      font-size: 25px;
+   }
+
+   .packages ul {
+      font-size: 25px;
+   }
+
+   div.mail,
+   div.phone {
+      float: left;
+   }
+
+   div.mail {
+      width: 60%;
+      padding-left: 90px;
+   }
+
+   div.phone {
+      width: 40%;
+      text-align: center;
+      padding-right: 45px;
+   }
+
+   footer {
+      height: 8vh;
+   }
+
+   footer p {
+      line-height: 8vh;
+      font-size: 20px;
+   }
+
+   .beachvolleyball div+div {
+
+      justify-content: space-around;
+   }
+
+   .logo {
+      padding: 25px 0;
+      width: 20%;
+      flex-grow: 0;
+   }
+
+   div.win {
+      width: 70%;
+      margin: 0 auto;
+      padding-top: 40px;
+   }
+
+
+
+
+   .arrow {
+      position: fixed;
+      bottom: 3%;
+      right: 3%;
+      width: 40px;
+      height: 40px;
+      font-size: 30px;
+      right: -20%;
+      transform: rotate(360deg);
+   }
+
+   .arrow.active {
+      right: 3%;
+      transform: rotate(0deg);
+   }
+}
+
+@media(orientation:landscape) and (min-width:1280px) {
+   .wraper {
+      margin: 0 auto;
+   }
+
+
+   div.map img {
+      max-width: 65%;
+   }
+
+   .wraper section p.information {
+      position: relative;
+      top: 15%;
+      left: 50%;
+      font-size: 18px;
+   }
+}
